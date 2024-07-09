@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant-Bill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Restaurant Bill</h1>
+    <table border="2px solid black" cellpadding="6" cellspacing="8">
+        <thead>
+            <tr>
+                <th>Food</th>
+                <th>Rate</th>
+                <th>Qty</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chapati</td>
+                <td id="i1">10</td>
+                <td id="l1">5</td>
+                <td id="t1"></td>
+            </tr>
+            <tr>
+                <td>Rice</td>
+                <td id="i2">30</td>
+                <td id="l2">2</td>
+                <td id="t2"></td>
+            </tr>
+            <tr>
+                <td>Curry</td>
+                <td id="i3">70</td>
+                <td id="l3">4</td>
+                <td id="t3"></td>
+            </tr>
+            <tr>
+                <td>Dal</td>
+                <td id="i4">50</td>
+                <td id="l4">3</td>
+                <td id="t4"></td>
+            </tr>
+        </tbody>
+    </table>
+   <input type="number" name="total" placeholder="Total" id="total"><br>
+   <button onclick="display()">Calculate</button>
+</body>
+<script src="script.js"></script>
+</html>

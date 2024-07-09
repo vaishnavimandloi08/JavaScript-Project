@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Records</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>STUDENT RECORDS</h1>
+    <div id="container">
+      <form>
+        <label for="">Student No.</label>
+        <input type="number" placeholder="Enter The Number" id="rows">
+
+        <label for="">Student Name</label>
+        <input type="text" id="name" placeholder="Enter Student Name" />
+
+        <label for="">Student Enrollment Number</label>
+        <input
+          type="number"
+          id="enroll"
+          placeholder="Enter Enrollment Number"
+        />
+
+        <label for="">Student Semester</label>
+        <input type="number" id="sem" placeholder="Enter Student Semester" />
+
+        <label for="">Student Department</label>
+        <select id="dept">
+          <option value="">Department</option>
+          <option value="cs">CS</option>
+          <option value="it">IT</option>
+          <option value="ec">EC</option>
+          <option value="ee">EE</option>
+          <option value="cv">Civil</option>
+          <option value="me">Mechanical</option>
+          <option value="dip">Diploma</option>
+        </select>
+
+        <label for="">Student Subject</label>
+        <input type="text" id="subject" placeholder="Enter The Subject" />
+
+        <label for="">Student Marks</label>
+        <input type="number" id="marks" placeholder="Enter the Marks" />
+
+        <input type="submit" id="btn" />
+      </form>
+
+      <h2>STUDENT RESULT</h2>
+      <table border="2px solid black" cellpadding="7" cellspacing="4">
+        <thead>
+          <tr>
+            <th>Student No.</th>
+            <th>Student Name</th>
+            <th>Student Enrollment Number</th>
+            <th>Student Semester</th>
+            <th>Department</th>
+            <th>Student Subject</th>
+            <th>Student Marks</th>
+            <th>External Marks</th>
+            <th>Grade</th>
+            <th id="del">Remove</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+</html>
+<script src="record.js"></script>

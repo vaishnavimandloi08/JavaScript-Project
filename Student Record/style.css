@@ -1,0 +1,439 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  text-shadow: 10px 10px 25px rgb(81, 67, 21), -10px 10px 25px rgb(81, 67, 21),
+    -10px -10px 25px rgb(81, 67, 21), 10px -10px 25px rgb(81, 67, 21);
+}
+
+#container {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: auto;
+  background-color: rgb(211, 194, 46);
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+form {
+  width: 80%;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(117, 117, 24);
+  color: white;
+  margin-bottom: 90px;
+}
+
+h2{
+        text-align: center;
+        font-size: 40px;
+        text-decoration: underline;
+        text-shadow: 10px 10px 25px rgb(81, 67, 21), -10px 10px 25px rgb(81, 67, 21),
+          -10px -10px 25px rgb(81, 67, 21), 10px -10px 25px rgb(81, 67, 21);
+}
+
+table {
+  margin-bottom: 40px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: auto;
+  font-size: 18px;
+}
+th {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+td {
+  border: none;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#del{
+    background-color: red;
+    cursor: pointer;
+}
+
+label {
+  font-size: 20px;
+}
+
+input:hover{
+    background-color: black;
+    color: white;
+}
+
+#rows {
+  padding: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#name {
+  padding: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#enroll {
+  padding: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#dept {
+  padding: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#dept:hover{
+    background-color: black;
+    color: white;
+}
+
+#subject {
+  padding: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#subject:hover{
+    background-color: black;
+    color: white;
+}
+
+#marks {
+  padding: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sem {
+  padding: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#btn {
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(136, 6, 6);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#btn:hover {
+  transition: 1ms;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+
+
+/* small screen media query */
+@media (min-width:200px) and (max-width:400px)
+
+  {
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      text-decoration: underline;
+      text-shadow: 10px 10px 25px rgb(81, 67, 21), -10px 10px 25px rgb(81, 67, 21),
+        -10px -10px 25px rgb(81, 67, 21), 10px -10px 25px rgb(81, 67, 21);
+    }
+
+
+  #container{
+    width: 850px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: auto;
+  background-color: rgb(211, 194, 46);
+  padding-top: 40px;
+  padding-bottom: 50px;
+  }
+
+  form {
+    width: 80%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(117, 117, 24);
+    color: white;
+    margin-bottom: 90px;
+  }
+  table {
+    width: 850px;
+    margin-bottom: 40px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: auto;
+    font-size: 18px;
+  }
+  th {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+  }
+  td {
+    border: none;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #del{
+      background-color: red;
+      cursor: pointer;
+  }
+  
+  label {
+    font-size: 25px;
+  }
+  
+  input:hover{
+      background-color: black;
+      color: white;
+  }
+  
+  #rows {
+    padding: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #name {
+    padding: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #enroll {
+    padding: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #dept {
+    padding: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #dept:hover{
+      background-color: black;
+      color: white;
+  }
+  
+  #subject {
+    padding: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #subject:hover{
+      background-color: black;
+      color: white;
+  }
+  
+  #marks {
+    padding: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #sem {
+    padding: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #btn {
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(136, 6, 6);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+
+  
+  
+}
+
+
+
+/* medium screen */
+@media (min-width:401px) and (max-width:800px)
+{
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    text-shadow: 10px 10px 25px rgb(81, 67, 21), -10px 10px 25px rgb(81, 67, 21),
+      -10px -10px 25px rgb(81, 67, 21), 10px -10px 25px rgb(81, 67, 21);
+  }
+
+
+#container{
+  width: 850px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+height: auto;
+background-color: rgb(211, 194, 46);
+padding-top: 40px;
+padding-bottom: 50px;
+}
+
+form {
+  width: 80%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(117, 117, 24);
+  color: white;
+  margin-bottom: 90px;
+}
+table {
+  width: 850px;
+  margin-bottom: 40px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: auto;
+  font-size: 18px;
+}
+th {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+td {
+  border: none;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#del{
+    background-color: red;
+    cursor: pointer;
+}
+
+label {
+  font-size: 25px;
+}
+
+input:hover{
+    background-color: black;
+    color: white;
+}
+
+#rows {
+  padding: 25px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#name {
+  padding: 25px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#enroll {
+  padding: 25px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#dept {
+  padding: 25px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#dept:hover{
+    background-color: black;
+    color: white;
+}
+
+#subject {
+  padding: 25px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#subject:hover{
+    background-color: black;
+    color: white;
+}
+
+#marks {
+  padding: 25px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sem {
+  padding: 25px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#btn {
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(136, 6, 6);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TODO APP</h1>
+    <div id="container">
+        <div>
+            <form>
+                <label for="">TASK NAME</label><br>
+                <input type="text" id="task" placeholder="Enter Task Name"><br>
+                
+                <label for="">PRIORITY</label><br>
+                <select id="priority">
+                    <option value="">Select Priority</option>
+                    <option value="high">High</option>
+                    <option value="low">Low</option>
+                </select><br>
+
+                <input type="submit" id="btn">
+            </form>
+
+            <table cellpadding="4" cellspacing="5">
+                <thead>
+                    <tr>
+                        <th>TASK NAME</th>
+                        <th>PRIORITY</th>
+                        <th>REMOVE</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+<script src="todo.js"></script>

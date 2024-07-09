@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* outer div */
+
+.container {
+  width: 80%;
+  height: 527px;
+  margin: auto;
+  background: linear-gradient(
+    45deg,
+    rgb(49, 49, 153),
+    rgb(124, 8, 124),
+    rgb(233, 45, 77),
+    rgb(255, 0, 43)
+  );
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-top: 80px;
+}
+
+/* inner div */
+
+.container > .box {
+  width: 70%;
+  height: 440px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: linear-gradient(to right, rgb(49, 49, 153), rgb(180, 25, 25));
+}
+
+/* main div */
+.container > .box > #main {
+  width: 50%;
+  height: 440px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(29, 28, 28);
+}
+
+.container > .box > #main h1 {
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container > .box > #main p {
+  color: gray;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
+}
+.top {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.top > .first input {
+  border: 1px solid blue;
+  border-radius: 20px;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.top > .second input {
+  border: 1px solid blue;
+  border-radius: 20px;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mid {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+}
+.mid > #div1 a {
+  width: 50%;
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+}
+.mid > #div2 button {
+  border: 1px solid blue;
+  border-radius: 20px;
+  background-color: rgb(41, 41, 41);
+  padding: 10px;
+  margin-top: 20px;
+  color: gray;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+/* media query small screen */
+@media (min-width: 200px) and (max-width: 400px) {
+  /* outer div */
+  .container {
+    width: 100%;
+    height: 470px;
+    margin: auto;
+    background: linear-gradient(
+      45deg,
+      rgb(49, 49, 153),
+      rgb(124, 8, 124),
+      rgb(233, 45, 77),
+      rgb(255, 0, 43)
+    );
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 50px;
+  }
+  /* inner div */
+  .container > .box {
+    width: 85%;
+    height: 425px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: linear-gradient(to right, rgb(49, 49, 153), rgb(180, 25, 25));
+  }
+  /* main div */
+  .container > .box > #main {
+    width: 70%;
+    height: 425px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(29, 28, 28);
+  }
+
+  .top {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .top > .first input {
+    width: 50%;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .top > .second input {
+    width: 50%;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .mid {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .mid > #div1 a {
+    width: 50%;
+    color: gray;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  .mid > #div2 button {
+    border: 1px solid green;
+    border-radius: 20px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    margin-top: 20px;
+    color: gray;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+}
+
+/* media query medium screen */
+@media (min-width: 401px) and (max-width: 600px) {
+  /* outer div */
+  .container {
+    width: 100%;
+    height: 470px;
+    margin: auto;
+    background: linear-gradient(
+      45deg,
+      rgb(49, 49, 153),
+      rgb(124, 8, 124),
+      rgb(233, 45, 77),
+      rgb(255, 0, 43)
+    );
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 50px;
+  }
+  /* inner div */
+  .container > .box {
+    width: 85%;
+    height: 425px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: linear-gradient(to right, rgb(49, 49, 153), rgb(180, 25, 25));
+  }
+  /* main div */
+  .container > .box > #main {
+    width: 70%;
+    height: 425px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(29, 28, 28);
+  }
+
+  .top {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .top > .first input {
+    width: 50%;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .top > .second input {
+    width: 50%;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .mid {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .mid > #div1 a {
+    width: 50%;
+    color: gray;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  .mid > #div2 button {
+    border: 1px solid green;
+    border-radius: 20px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    margin-top: 20px;
+    color: gray;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+}
+
+/* media query large screen */
+@media (min-width: 601px) and (max-width: 800px) {
+  /* outer div */
+  .container {
+    width: 100%;
+    height: 470px;
+    margin: auto;
+    background: linear-gradient(
+      45deg,
+      rgb(49, 49, 153),
+      rgb(124, 8, 124),
+      rgb(233, 45, 77),
+      rgb(255, 0, 43)
+    );
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 50px;
+  }
+  /* inner div */
+  .container > .box {
+    width: 85%;
+    height: 425px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: linear-gradient(to right, rgb(49, 49, 153), rgb(180, 25, 25));
+  }
+  /* main div */
+  .container > .box > #main {
+    width: 70%;
+    height: 425px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(29, 28, 28);
+  }
+
+  .top {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .top > .first input {
+    width: 50%;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: rgb(48, 48, 48);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .top > .second input {
+    width: 50%;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: rgb(48, 48, 48);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .mid {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .mid > #div1 a {
+    width: 50%;
+    color: gray;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  .mid > #div2 button {
+    border: 1px solid green;
+    border-radius: 20px;
+    background-color: rgb(48, 48, 48);
+    padding: 10px;
+    margin-top: 20px;
+    color: gray;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+}

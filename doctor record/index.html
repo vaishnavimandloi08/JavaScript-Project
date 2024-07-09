@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor-Record</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HOSPITAL - DOCTOR RECORDS</h1>
+    <div id="container">
+        <div>
+            <form>
+                <label for="">Doctor Name</label><br>
+                <input id="name" type="text" placeholder="Doctor Name"><br>
+
+                <label for="">Doctor ID</label><br>
+                <input type="text" id="Did" placeholder="Doctor ID"><br>
+
+                <label for="">Speciallization</label><br>
+                <select id="special">
+                    <option value="">Speciallization</option>
+                    <option value="dermatologist">Dermatologist</option>
+                    <option value="ent">ENT</option>
+                    <option value="dentist">Dentist</option>
+                    <option value="gynecologist">Gynecologist</option>
+                    <option value="covid">COVID</option>
+                </select><br>
+
+                <label for="">Experience</label><br>
+                <input type="number" id="exp" placeholder="Experience"><br>
+
+                <label for="">Email Address</label><br>
+                <input type="email" id="email" placeholder="Enter Email Address"><br>
+
+                <label for="">Mobile Number</label><br>
+                <input type="number" id="phone" placeholder="Enter Mobile Number"><br>
+
+                <input type="submit" id="btn">
+            </form>
+
+            <table border="2px solid black" cellpadding="4" cellspacing="5">
+                <thead>
+                    <tr>
+                        <th>Doctor Name</th>
+                        <th>Doctor ID</th>
+                        <th>Speciallization</th>
+                        <th>Experience of Year</th>
+                        <th>Email Address</th>
+                        <th>Mobile Number</th>
+                        <th>Role</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+<script src="record.js"></script>

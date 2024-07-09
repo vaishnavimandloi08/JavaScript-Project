@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  text-shadow: 0 0 2px #dfdfdf, 
+      -4px 5px 0 #b8b8b8, 
+      -7px 11px 0 #747474,
+      -12px 17px 0 #343434,
+      -17px 23px 0 #000;
+  color: rgb(107, 105, 6);
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+#container > div {
+  width: 100%;
+  display: flex;
+}
+form {
+  width: 40%;
+  height: 400px;
+  display: grid;
+  justify-content: center;
+  margin-left: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+table {
+  width: 50%;
+  height: 20px;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+label {
+  font-size: 20px;
+  color: sienna;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+#task {
+  padding: 10px;
+  background-color: plum;
+}
+#priority {
+  padding: 10px;
+}
+#btn {
+  background-color: rgb(4, 4, 95);
+  color: white;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  border: none;
+}
+#btn:hover {
+  transition: 1ms;
+  background-color: black;
+}
+th {
+  color: white;
+  background-color: skyblue;
+  font-weight: bolder;
+  padding: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+td{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  text-align: center;
+  font-weight: bolder;
+  font-size:20px;
+}

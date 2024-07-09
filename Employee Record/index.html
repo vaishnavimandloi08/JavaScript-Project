@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Record</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Employee Records</h1>
+    <div id="container">
+      <div>
+        <form>
+          <label for="">Name Of The Employee</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter Employee Name"
+          /><br />
+
+          <label for="Employee ID">Employee ID</label>
+          <input type="text" id="Did" placeholder="Employee ID" /><br />
+
+          <label for="">Department</label>
+          <select id="dept">
+            <option value="">Department</option>
+            <option value="fr">Fronted</option>
+            <option value="back">Backend</option>
+            <option value="ops">OPS</option>
+            <option value="hr">HR</option>
+            <option value="ia">IA</option></select
+          ><br />
+
+          <label for="">Experience in Year</label>
+          <input
+            type="number"
+            id="year"
+            placeholder="Experience In Year"
+          /><br />
+
+          <label for="">Email Address</label>
+          <input type="email" id="email" placeholder="Email Address" /><br />
+
+          <label for="">Mobile Number</label>
+          <input type="number" id="mobile" placeholder="Mobile Number" /><br />
+
+          <input type="submit" id="btn" />
+        </form>
+        <table border="2px solid black" cellpadding="4" cellspacing="5">
+          <thead>
+            <tr>
+              <th>Employee Name</th>
+              <th>Employee Id</th>
+              <th>Department</th>
+              <th>Experience In Year</th>
+              <th>Email Address</th>
+              <th>Mobile Number</th>
+              <th>Role</th>
+              <th>Remove</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="emp.js"></script>
